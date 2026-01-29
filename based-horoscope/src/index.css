@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure mobile native feel (No bouncing scroll) */
+html, body {
+  height: 100%;
+  overscroll-behavior: none;
+  touch-action: pan-y; /* Prevent zoom gestures */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-base-white text-base-black dark:bg-black dark:text-white transition-colors duration-200;
+}
