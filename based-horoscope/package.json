@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@coinbase/onchainkit": "^1.1.2",
+    "@tailwindcss/postcss": "^4.1.18",
     "classnames": "^2.5.1",
     "ethers": "^6.16.0",
     "framer-motion": "^12.29.2",
